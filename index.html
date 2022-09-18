@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+ <script src="https://kit.fontawesome.com/c683ff24fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!----hero Section start---->
+
+	<div class="hero">
+		<nav>
+      <a class="gg" href="https://discord.gg/faithful" target="_blank">
+			<h2 class="logo" color="red">WOTL</h2>
+      </a>
+      <style>.gg{text-decoration: none; color: white;}</style>
+			<ul>
+				<li><a href="#">Home</a></li>
+			<li><a href="#link1" class="scrollLink">About Us</a></li>
+				<li><a href="#">Staff Team</a></li>
+				<li><a href="#">Applications</a></li>
+			</ul>
+			<a href="#" class="btn">TestButton</a>
+		</nav>
+
+
+		<div class="content">
+			
+			<h1> Welcome to</h1><h1>Way of the <span>Lord</span></h1>
+      
+			<h3><b>Way of the Lord is a Social Community revolved around 
+      Christianity.</p><p>We are mostly settled on the Social App called Discord.</p><p>Click <a href="#link2" class="scrollLink">here</a> for our Socials!</p></b></h3><style>h3{cursor:default;}</style>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about scrollLink" id="link1">
+		<div class="main">
+			<div class="about-text">
+				<h2>About Us</h2>
+				<h5>Who are <span>we?</span></h5>
+				<p>lorem ipsum bla bla lprem lore</p>
+         <script>
+      let $root = $('html, body');
+      $('a[href^="#"]').click(function() {
+          let href = $.attr(this, 'href');
+          $root.animate({
+            scrollTop: $(href).offset().top
+          }, 500, function() {
+            window.location.hash = href;
+          });
+          return false;
+        });
+    </script>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service scrollLink" id="link2">
+		<div class="title">
+			<h2>Our Socials</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+			<i class="fa-brands fa-youtube"></i>
+				<h5>Youtube</h5>
+				<div class="pra">
+					<p>LOrem IPSUM</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+			
+				<h5></h5>
+				<div class="pra">
+					<p>LOREM PISUM</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+			
+				<h5></h5>
+				<div class="pra">
+					<p></p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p></p>
+		<a class="button-two" href="#">Contact Me</a>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Way of the Lord</p>
+		<p>Where God is the Owner:</p>
+		<p class="end">CopyRight Way of the Lord 2022 - </p>
+	</footer>
+</body>
+</html>
